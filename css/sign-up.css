@@ -135,7 +135,8 @@ form{
     margin-top: 30px;
 }
 form p{
-    margin: 8px;
+    margin: 12px 8px;
+
 }
 input{
     width: 300px;
@@ -235,11 +236,49 @@ footer{
     list-style-type: none;
 }
 
-@media screen and (max-width:500px) {
-    input{
-        width: 100%;
+@media screen and (max-width: 1105px){
+    .header{
+        position: relative;
+        height: 25vh;
+    }
+    .navbar {
+        flex-direction: column!important;
+        position: absolute;
+        margin-top: 70px;
     }
 }
+
+
+@media screen and (max-width: 695px){
+    
+    .header h1{
+        font-size: 35px;
+        margin-top:15px;
+    }
+    .navbar{
+        display: none;
+    }
+    .get{  
+        grid-template-columns: auto auto;
+    }
+
+    main h1{
+        font-size: 35px;
+    }
+
+    .pre{
+        padding-bottom: 30px;
+        padding-top: 20px!important;     
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .get{  
+        grid-template-columns: auto;
+    }
+}
+
 
 
 
