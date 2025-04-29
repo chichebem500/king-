@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
- /* navbar */
+ /* navbar section */
 .header {
     display: flex;
     top: 0px;
@@ -116,53 +116,7 @@ button a {
 button:hover {
     background-color: #2bab0d;
 }
-
-button:hover {
-    background-color: #2bab0d;
-}
-
-/* the body */
-.img{
-    width: 100%;
-    height: 120vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(/image/Premium\ Photo\ _\ Real\ estate\ concept\ with\ floating_.jpeg);
-    
-}
-.text p{
-    padding-top: 40px;
-    margin-left: 40px;
-    font-size: 70px;
-    font-weight: bolder;
-    width: 30px;
-}
-.for{
-    margin-left: 40px;
-    font-weight: bolder;
-    width: 300px;
-}
-pre{
-    color: #949894;
-    margin-left: 40px;
-    font-size: 15px;
-}
-pre a{
-    text-decoration: none;
-}
-#bug{
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 250px;
-    height: 30px;
-    background-color: #006400;
-}
-#but1 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
+/* footer section */
 .view{
     display: flex;
     height: 30px;
@@ -174,12 +128,13 @@ pre a{
     color: #9ab09a;
     text-decoration: none;
 }
+
 footer{
     width: 100%;
     height: 70vh;
     background-color: #006400;
 }
-/* dropdown */
+/*footer dropdown */
 .bit {
     display: none;
     color: #ffff;
@@ -211,7 +166,7 @@ footer{
     list-style-type: none;
 }
 
-
+/* responsive design */
 @media screen and (max-width: 1105px){
     .header{
         position: relative;
