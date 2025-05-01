@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vteach loging</title>
     <link rel="stylesheet" href="/css/login.css">
+    <meta name="keywords" content="html,css,javascript,metadata">
     <link rel="shortcut icon" href="/image/PhoneSystemToastIcon.contrast-white.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/nav.css">
 </head>
 
 <body>
     <header class="header">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="/image/menu.png" class="menu">
+          </a>
         <h1>
             Vteach
         </h1>
-        <nav class="navbar">
+        <nav class="navbar" id="myLinks">
             <ul>
                 <div class="dropdown">
                     <li><a href="/index.html">Home 🔻</a></li> 
@@ -32,8 +37,8 @@
                     <li><a href="#">Service🔻</a></li>
                     <div class="dropdown-content">
                         <ul>
-                           <li><a href="#">Chat</a></li>
-                           <li><a href="#">Call ☎️</a></li>
+                           <li><a href="/html/tocontact.html">Chat</a></li>
+                           <li><a href="/html/tocontact.html">Call ☎️</a></li>
                            <li><a href="#">Problem</a></li>
                         </ul>
                     </div>
@@ -49,7 +54,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <li><a href="/html/contact.html">Contact🔻</a></li>
+                    <li><a href="/html/tocontact.html">Contact🔻</a></li>
                     <div class="dropdown-content">
                         <ul>
                            <li><a href="#">Faq</a></li>
@@ -70,6 +75,7 @@
                 </div>
             </ul>
         </nav>
+
         <div class="but">
             <button class="bug" id="button1">
                 <a href="/html/login.html">Login</a>
@@ -103,6 +109,7 @@
             </div>
         </form>
     </main>
+
     <div class="view">
         <a href="#">View More pages......</a>
     </div>
@@ -157,7 +164,16 @@
         </div>
         
     </footer>
-</body>
-<script src="/js/sign-up.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+    </body>
 
 </html>
